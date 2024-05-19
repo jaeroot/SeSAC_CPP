@@ -39,7 +39,7 @@
     <ClCompile Include="240517\CardGame.cpp">
       <Filter>소스 파일\240517</Filter>
     </ClCompile>
-    <ClCompile Include="240517\Activity.cpp">
+    <ClCompile Include="240517\Lotto.cpp">
       <Filter>소스 파일\240517</Filter>
     </ClCompile>
     <ClCompile Include="240517\Bingo.cpp">
