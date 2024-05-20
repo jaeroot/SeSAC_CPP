@@ -22,6 +22,9 @@
     <Filter Include="소스 파일\240517">
       <UniqueIdentifier>{ddc6536c-bcd2-4f2c-8345-e04c5a8b4b94}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\240520">
+      <UniqueIdentifier>{7111f434-9503-4dc9-8fbd-5a373091983c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="240514\HelloCpp.cpp">
@@ -44,6 +47,9 @@
     </ClCompile>
     <ClCompile Include="240517\Bingo.cpp">
       <Filter>소스 파일\240517</Filter>
+    </ClCompile>
+    <ClCompile Include="240520\pointer.cpp">
+      <Filter>소스 파일\240520</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

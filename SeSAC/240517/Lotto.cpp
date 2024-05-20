@@ -37,12 +37,35 @@ int main()
 			int temp = lotto[i];
 			lotto[i] = lotto[random];
 			lotto[random] = temp;
+		}
 
+		// sort
+		// 오름차순 정렬(작은거 -> 큰거), 내림차순 정렬(큰거 -> 작은거)
+		// selection sort, bubble sort 등등..
+		// 1번칸과 나머지 칸을 전부 비교, 작은 숫자가 발견되면 swap (오름차순 기준)
+		// 2번칸과 그 뒤 나머지 칸 전부 비교, 작은 숫자가 발견되면 swap
+		// n-1번 칸까지 전부 수행
+		// 데이터가 n개일 때, n-1번 * (n - 1)!번 수행
+		for (int i = 0; i < 5; i++)
+		{
+			for (int j = i + 1; j < 6; j++)
+			{
+				if (lotto[i] > lotto[j])
+				{
+					int temp = lotto[i];
+					lotto[i] = lotto[j];
+					lotto[j] = temp;
+				}
+			}
+		}
+
+		// print
+		for (int i = 0; i < 6; i++)
+		{
 			std::cout << lotto[i] << "\t";
 		}
 		std::cout << std::endl;
 	}
 
-
-	
+	return 0;
 }
