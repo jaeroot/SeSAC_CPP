@@ -48,7 +48,10 @@
     <ClCompile Include="240517\Bingo.cpp">
       <Filter>소스 파일\240517</Filter>
     </ClCompile>
-    <ClCompile Include="240520\pointer.cpp">
+    <ClCompile Include="240520\struct.cpp">
+      <Filter>소스 파일\240520</Filter>
+    </ClCompile>
+    <ClCompile Include="240520\function_pointer.cpp">
       <Filter>소스 파일\240520</Filter>
     </ClCompile>
   </ItemGroup>

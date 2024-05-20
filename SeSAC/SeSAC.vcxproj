@@ -40,7 +40,8 @@
     <ClCompile Include="240517\Array.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="240520\pointer.cpp">
+    <ClCompile Include="240520\function_pointer.cpp" />
+    <ClCompile Include="240520\struct.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
   </ItemGroup>
