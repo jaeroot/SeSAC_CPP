@@ -25,6 +25,9 @@
     <Filter Include="소스 파일\240520">
       <UniqueIdentifier>{7111f434-9503-4dc9-8fbd-5a373091983c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\240521">
+      <UniqueIdentifier>{25e1b72d-ac0d-408d-8214-7a4dc5b77aa1}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="240514\HelloCpp.cpp">
@@ -53,6 +56,15 @@
     </ClCompile>
     <ClCompile Include="240520\function_pointer.cpp">
       <Filter>소스 파일\240520</Filter>
+    </ClCompile>
+    <ClCompile Include="240521\const.cpp">
+      <Filter>소스 파일\240521</Filter>
+    </ClCompile>
+    <ClCompile Include="240521\reference_static.cpp">
+      <Filter>소스 파일\240521</Filter>
+    </ClCompile>
+    <ClCompile Include="240521\dynamic_memory_allocation.cpp">
+      <Filter>소스 파일\240521</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
