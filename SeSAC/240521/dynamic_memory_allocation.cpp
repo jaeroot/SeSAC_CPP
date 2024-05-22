@@ -113,7 +113,6 @@ int main()
 	std::cout << Func(10, 20) << std::endl;
 
 	Func = Minus;
-
 	std::cout << Func(10, 20) << std::endl;
 
 	// 버튼 입력 시, 클릭하는 기능을 만듦
@@ -131,14 +130,6 @@ int main()
 
 	// CompileButton 클릭 시
 	CompileButton.ClickFunc();
-
-	int a;
-	int* b = new int;
-
-	std::cout << &a << std::endl;
-	std::cout << b << std::endl;
-	delete b;
-
 
 	return 0;
 }

@@ -18,7 +18,6 @@ void StaticTest()
 	*/
 	int Number = 100;
 	++Number;
-
 	std::cout << "Number = " << Number << std::endl;
 
 	static int NumberStatic = 100;

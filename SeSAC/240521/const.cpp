@@ -36,12 +36,8 @@ int main()
 	int* Pointer4 = &Number;
 	int** PointerPointer = &Pointer4;
 
-	const int a = 10;
-	int b = a + a;
-	int c = b + b;
-
-
-
+	const int* Pointer5 = &Number;
+	const int** PointerPointer2 = &Pointer5;
 
 	return 0;
 }
