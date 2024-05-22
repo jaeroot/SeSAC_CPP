@@ -28,6 +28,9 @@
     <Filter Include="소스 파일\240521">
       <UniqueIdentifier>{25e1b72d-ac0d-408d-8214-7a4dc5b77aa1}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\240522">
+      <UniqueIdentifier>{8964cb5b-c8e8-4efc-8c56-6869f4d0be5d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="240514\HelloCpp.cpp">
@@ -65,6 +68,15 @@
     </ClCompile>
     <ClCompile Include="240521\dynamic_memory_allocation.cpp">
       <Filter>소스 파일\240521</Filter>
+    </ClCompile>
+    <ClCompile Include="240522\fileIO.cpp">
+      <Filter>소스 파일\240522</Filter>
+    </ClCompile>
+    <ClCompile Include="240522\BinaryFileIO.cpp">
+      <Filter>소스 파일\240522</Filter>
+    </ClCompile>
+    <ClCompile Include="240522\IOFstream.cpp">
+      <Filter>소스 파일\240522</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
