@@ -31,6 +31,9 @@
     <Filter Include="소스 파일\240522">
       <UniqueIdentifier>{8964cb5b-c8e8-4efc-8c56-6869f4d0be5d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\240524">
+      <UniqueIdentifier>{a5ff178e-9c27-44e8-8104-d31e07b017e2}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="240514\HelloCpp.cpp">
@@ -77,6 +80,9 @@
     </ClCompile>
     <ClCompile Include="240522\IOFstream.cpp">
       <Filter>소스 파일\240522</Filter>
+    </ClCompile>
+    <ClCompile Include="240524\class.cpp">
+      <Filter>소스 파일\240524</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
