@@ -37,6 +37,12 @@
     <Filter Include="소스 파일\240524">
       <UniqueIdentifier>{a5ff178e-9c27-44e8-8104-d31e07b017e2}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\240528">
+      <UniqueIdentifier>{5feea1e4-59db-4177-9306-6e4a76eece6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\240528">
+      <UniqueIdentifier>{063782d4-690d-4390-95dd-69335ca09c7b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="240514\HelloCpp.cpp">
@@ -90,5 +96,31 @@
     <ClCompile Include="240527\Inheritance.cpp">
       <Filter>소스 파일\240527</Filter>
     </ClCompile>
+    <ClCompile Include="240528\operator.cpp">
+      <Filter>소스 파일\240528</Filter>
+    </ClCompile>
+    <ClCompile Include="240528\singleton.cpp">
+      <Filter>소스 파일\240528</Filter>
+    </ClCompile>
+    <ClCompile Include="240528\main.cpp">
+      <Filter>소스 파일\240528</Filter>
+    </ClCompile>
+    <ClCompile Include="240528\CItem.cpp">
+      <Filter>소스 파일\240528</Filter>
+    </ClCompile>
+    <ClCompile Include="240528\CMonster.cpp">
+      <Filter>소스 파일\240528</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="240528\GameInfo.h">
+      <Filter>헤더 파일\240528</Filter>
+    </ClInclude>
+    <ClInclude Include="240528\CItem.h">
+      <Filter>헤더 파일\240528</Filter>
+    </ClInclude>
+    <ClInclude Include="240528\CMonster.h">
+      <Filter>헤더 파일\240528</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

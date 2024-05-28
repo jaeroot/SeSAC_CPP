@@ -67,7 +67,23 @@
     <ClCompile Include="240524\class.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="240527\Inheritance.cpp" />
+    <ClCompile Include="240527\Inheritance.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="240528\CItem.cpp" />
+    <ClCompile Include="240528\CMonster.cpp" />
+    <ClCompile Include="240528\operator.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="240528\singleton.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="240528\main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="240528\GameInfo.h" />
+    <ClInclude Include="240528\CItem.h" />
+    <ClInclude Include="240528\CMonster.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
